@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porfolio de KM</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/896637ab26.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <header>
+            <h1>Kylian Mbappe</h1>
+            <nav>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#apropos">A propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="clear"></div> <!--pour stopper l'effet flottant-->
+        </header>
+
+        <section id="pres" class="fondVert">
+            <img src="img/profile.png" alt="Photo de Profil">
+            <h2>Kylian Mbappe</h2>
+            <div class="trait"></div>
+            <h3> Developpeur web</h3>
+        </section > 
+
+        <section id="portfolio">
+            <h2 class="titre">Portfolio</h2>
+            <div class="trait"></div>
+            <div class="flex">
+                <div>
+                    <img src="img/cabin.png" alt="Cabin">
+                </div>
+                <div>
+                    <img src="img/cake.png" alt="Cabin">
+                </div>
+                <div>
+                    <img src="img/circus.png" alt="Cabin">
+                </div>
+            </div>
+            <div class="flex">
+                    <div>
+                        <img src="img/game.png" alt="Cabin">
+                    </div>
+                    <div>
+                        <img src="img/safe.png" alt="Cabin">
+                    </div>
+                    <div>
+                        <img src="img/submarine.png" alt="Cabin">
+                    </div>
+            </div>                    
+        </section>
+        <section id="apropos" class="fondVert">
+            <h2> A propos</h2>
+            <div class="trait"></div>
+            <div class="flex">
+                <div>  
+                    <h3>Formation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sed tenetur aliquam soluta dolores! Quae, odit. Maxime explicabo deleniti rem incidunt labore eveniet, quibusdam necessitatibus laudantium deserunt. Maiores voluptate magnam nemo nihil laudantium nobis repellendus! Impedit nobis iusto tempore facere. Adipisci minus eaque, voluptates maxime officia quod commodi consequatur rerum nemo aliquid repudiandae quaerat reiciendis, fuga vel obcaecati, est nam? Voluptatem sint cumque consectetur, reprehenderit eum reiciendis obcaecati quia est vitae minima earum laudantium perferendis ratione qui in. </p>
+            </div>
+                <div>  
+                    <h3>Experience</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sed tenetur aliquam soluta dolores! Quae, odit. Maxime explicabo deleniti rem incidunt labore eveniet, quibusdam necessitatibus laudantium deserunt. Maiores voluptate magnam nemo nihil laudantium nobis repellendus! Impedit nobis iusto tempore facere. Adipisci minus eaque, voluptates maxime officia quod commodi consequatur rerum nemo aliquid repudiandae quaerat reiciendis, fuga vel obcaecati, est nam? Voluptatem sint cumque consectetur, reprehenderit eum reiciendis obcaecati quia est vitae minima earum laudantium perferendis ratione qui in. </p>
+                </div>
+            </div>  
+            <a href="Cv-developpeur-integrateur-web.Barekine-MENDY.pdf" target="_blank"> <i class="fa-solid fa-download"></i> CV</a>         
+        </section>
+
+        <section id="contact">
+            <h2 class="titre">Contactez moi</h2>
+            <div class="trait"></div>
+            <form >
+                <label for="nom">Nom</label> 
+                <input type="text" id="nom">
+                <label for="tel">Telephone</label>
+                <input type="tel" id="tel" pattern="[0-9]{10}">
+                <label for="email">Mail</label>
+                <input type="email" id="email">
+                <label for="message">Message</label>
+                <textarea  id="message" ></textarea>
+                <input type="submit" value="Envoyer !">
+
+            </form>
+        </section>
+
+        <footer>
+            <section id="infos" class="flex">
+                <div>
+                    <h3>Adresse</h3>
+                    <p>5 square Brassens, 91600 Savigny sur Orge</p>
+                </div>
+                <div>
+                    <h3>Mes réseaux</h3>
+                    <a href="https://fr-fr.facebook.com/barekine.mendy/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/barekine-mendy-40b018127/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/barrymendy/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>                
+            </section>
+            <section id="copyright">
+                <p>copyright &copy; Barekine Mendy</p>
+        </footer>
+    </body>
+</html>

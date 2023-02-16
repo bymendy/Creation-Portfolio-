@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondvert {
+    background-color: #18bd9b;
+}
+.trait {
+    width: 320px;
+    height: 2px;
+    margin: 22px auto 26px auto;
+}
+header {
+    background-color: #2d3e50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+nav a:hover {
+    color: #2d3e50;
+    background-color: #ffffff;
+
+}
+#pres {
+    padding: 113px 0 170px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#pres img {
+    margin: auto;
+    display: block;
+}
+#pres h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 70px;
+}
+#pres .trait {
+    background-color: #ffffff
+}
+#pres h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+#portfolio {
+    padding: 100px 0 113px 0;
+}

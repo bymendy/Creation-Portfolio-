@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* COMMON Classes */
+
+.padding-1 {
+    padding: 1rem;
+}
+.padding-2{
+    padding: 2rem;
+}
+.m-y {
+    margin: 1rem 0;
+}
+
+/* WIDTH */
+.w-50 {
+    width: 50% ;
+}
+/* FLEX */
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+/* Background */
+.bckg-violet {
+    background: #5e24c3;
+}
+.bckg-red {
+    background: #fc4364;
+}
+
+.bckg-blue-dark {
+    background: #003668;
+}
+.bckg-grey {
+    background: #fafafa;
+}
+
+/* color */
+.text-white {
+    color: white;
+}
+/****************************** Partie Header **************************************/
+.logo {
+    border: 1px solid black;
+    width: max-content;
+    padding: 15px;  
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+#barre1 {
+    display: flex;
+    justify-content: space-between; 
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 20px 20px;
+}
+nav a:hover {
+    cursor: pointer;
+    background-color: violet;
+} 
+.menu-burger {
+    display: none;
+}
+.hamburger {
+    background: none;
+    color: #c0392b;
+    border: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#textcenter {
+    margin-top: 70px;
+}
+
+
+#titres2 {
+    margin-top: 50px;
+    width: max-content;
+}
+
+
+#imgtitres p {
+    color: white;
+}
+#button {
+    width: 133px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+#button p {
+    padding: 15px;
+}
+#button:hover {
+    cursor: pointer;
+    background-color: violet;
+}
+/***************************** Partie Section*******************************/
+
+#section-1 a {
+    border-radius: 0.5rem;
+}
+
+.img1 {
+    width: 400px;
+}
+
+h1 {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+h1 > span {
+    padding: 0.5rem;
+}
+
+p {
+    font-weight: none;
+}
+#section2 {
+    height: 400px;
+}
+
+.section21 h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.section21 p {
+    text-align: center;
+    width: 400px;
+    margin: 20px auto 0 auto;
+}
+.section22 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    padding: 0 600px;
+    text-align: center;
+}
+.section22 h2{
+    font-size: 30px; /* font : pour l'écriture*/    
+}
+.h22 {
+    color: aqua;
+}
+.h23 {
+    color: blueviolet;
+}
+.h24 {
+    color: rgb(243, 159, 173);
+}
+.h25 {
+    color: fuchsia;
+}
+#texte2 {
+    text-align: center;
+}
+#texte2 p {
+    text-align: center;
+}
+
+#section3 article {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 100%;
+}
+#section3 img {
+    height: 300px;
+    width: 350px;
+}
+#section3 div {
+    width: 400px;
+    padding: 50px 50px 0 50px;
+}
+#section3 h2 {
+    color: red;
+    margin-top: 20px;
+}
+#section3 p {
+    margin-top: 10px;
+}
+#section4 {
+    display: flex;  
+    justify-content: space-evenly;  
+    background: #fafafa
+}
+#section4 img {
+    width: 250px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#section4 h2 {
+    margin-top: 10px;
+}
+#section4 p{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+article div {
+    width: 250px;
+}
+#section5 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background: #fafafa
+}
+#section5 img {
+    width: 250px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+#section5 h2{
+    margin-top: 10px;
+}
+#section5 p {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+/************************Partie Footer **********************/
+footer {
+    background-color: rgb(198, 198, 198);
+    display: flex;   /*Padding à utiliser pour travailler à l'intérieur*/
+    justify-content: space-evenly;
+}
+
+footer section{
+    display: flex;
+    padding: 50px 0 50px 0;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+footer section p{
+    margin-top: 30px;
+}
+#icon img:hover {
+    margin: 20px 10px 0 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#logo div img:hover {
+    width: 25px;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
