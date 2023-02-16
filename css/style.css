@@ -379,7 +379,7 @@ div .p-projet  {
     position: absolute;
     top: 35%;
     transform: translate(-50%, -50px);
-    margin-left: 12vw;
+    margin-left: 14vw;
     transition: 0.1s ease-out;
     opacity: 0;
 }
@@ -389,7 +389,7 @@ div .p-projet  {
 }
 
 .project-infos p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 1.5vw;
     color: #fefeff;
 
