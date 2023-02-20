@@ -154,9 +154,9 @@ iframe {
     width: 70%;
     margin: 0 auto;
     background-color: #000101;
-    transition: 1s cubic-bezier(0.77, 0, 0.18, 1);
+    transition: 0.30s cubic-bezier(0.77, 0, 0.18, 1);
     /* transform-origin: left; */
-    transition-delay: 0.30s;
+    transition-delay: 0.10s;
     opacity: 0;
     transform: scaleX(0);
 }
@@ -368,7 +368,7 @@ div .p-projet  {
 }
 
 .project img {
-    transition: 0.4s ease-out;
+    transition: 0.1s ease-out;
     width: 100%;
 }
 
