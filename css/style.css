@@ -1,13 +1,13 @@
 /* Paramétres généraux */
-@font-face {
+/* @font-face {
     font-family: "font-reg";
     src: url(../fonts/PlayfairDisplay-Regular.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "font-bold";
     src: url(../fonts/PlayfairDisplay-Extrabold.ttf);
-}
+} */
 
 * {
     padding: 0;
@@ -20,7 +20,22 @@ header .links a {
     list-style: none;
     color: #ffffff;
 }
+.element {
+    overflow-y: auto;
+  }
 
+.element::-webkit-scrollbar {
+    background-color: #f1f1f1;
+    width: 10px;
+  }
+  
+  .element::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+
+.height {
+    min-height: 100vh;
+}
 /* COMMON CLASSES */
 .flex {
     display: flex;
@@ -302,7 +317,7 @@ div .p-left {
     margin-right: 15%;
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 30%;
     right: 100%;
     text-decoration: none;
     color: #000101;
@@ -404,7 +419,6 @@ div .p-projet  {
 }
 
 footer {
-    margin: 150px 0 120px;
     color: #050505;
     text-align: center;
 }

@@ -10,13 +10,12 @@
     <link rel="icon" type="image/png" href="rsz_favicon-bymendy_1.png">    
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://kit.fontawesome.com/896637ab26.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="bootstrap-5.2.3-dist/">
 
 
 </head>
-    <body>
+    <body >
         <!-- Animations Locomotive Scroll -->                
-        <div data-scroll-container>
+        <div data-scroll-container class="height">
             <!---------------------------------- HAUT DE PAGE  ------------------------------------->
             <header>
                 <!-- Nom - Titre & Liens -->
@@ -46,7 +45,7 @@
                 </div>
             </header>
             <!-- Video Youtube -->
-            <section class="about d-flex">
+            <section class="about d-flex element">
                 <div data-scroll data-scroll-speed="-1">
                     <iframe src="https://www.youtube.com/embed/hW2IV079utQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>     
@@ -156,16 +155,16 @@
                             <a href="Zoning/index.html" target="_blank">Zoning</a>
                             <p>2022</p>
                         </div>
-                        <div>
-                            <p  class="p-right">
+                        <div data-scroll class ="appear">
+                            <p class="p-right "  data-scroll data-scroll-speed="3" data-scroll-direction="horizontal" >
                                 Réaliser ce zoning avait pour but de prendre en compte le layout d'une page afin de gérer le positionnement des éléments.
                             </p>
                         </div>
                     </div>
                     <!-- Travail pratique 2 -->
                     <div data-scroll  class="project flex" id="p2">
-                        <div>
-                            <p  class="p-left">L'objectif de cet exercice est de prendre en considération avec précision la couleur, la taille et l'emplacement de chaque élément, afin de rendre une maquette fidèle au modèle.</p>
+                        <div data-scroll class ="appear">
+                            <p  class="p-left" data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal">L'objectif de cet exercice est de prendre en considération avec précision la couleur, la taille et l'emplacement de chaque élément, afin de rendre une maquette fidèle au modèle.</p>
                             </div>
                         <img src="css/img/portfolio.jpeg.png" alt="Maquette Portfolio">
                         <div class="project-infos">
@@ -180,14 +179,14 @@
                             <a href="Maquette-portfolio-code-html/index-portfolio_en_code.html" target="_blank">Second Portfolio</a>
                             <p>2022</p>
                         </div>
-                        <div>
-                        <p  class="p-right"> La conception de ce portfolio m'a permis de comprendre la disposition des éléments et de pouvoir mettre en place rapidement une maquette en intégrant son code HTML et CSS.</p>
+                        <div data-scroll class ="appear">
+                        <p  class="p-right" data-scroll data-scroll-speed="6" data-scroll-direction="horizontal"> La conception de ce portfolio m'a permis de comprendre la disposition des éléments et de pouvoir mettre en place rapidement une maquette en intégrant son code HTML et CSS.</p>
                         </div>
                     </div>
-                <!-- Travail pratique 4 -->                
+                    <!-- Travail pratique 4 -->                
                     <div data-scroll class="project flex justify-start" id="p4">
-                        <div>
-                            <p  class="p-left">L'intégration de cette maquette en HTML et CSS
+                        <div data-scroll class ="appear">
+                            <p  class="p-left" data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal">L'intégration de cette maquette en HTML et CSS
                                 avait pour objectif de représenter la première page d'un site web.</p>
                         </div>
                         <img src="css/img/maquette-site.jpeg.png" alt="Maquette site internet">
@@ -212,17 +211,29 @@
                         <a href="https://hotel-chambord.bymendy.fr/" target="_blank">Hôtel Chambord</a>
                         <p>2023</p>
                     </div>
-                    <div>
-                    <p  class="p-projet"> La réalisation de ce projet avait pour objectifs d'intégrer des pages web à l'aide des langages HTML5/CSS3 et Javascript. Le site web devait être responsive design, compatible sur chaque format d'écran ainsi que sur les différents navigateurs. <br><br> Et dans un dernnier temps, je devais assurer la mise en ligne du site internet en veillant au respect des dates et du délai de livraison.</p>
+                    <div data-scroll class ="appear">
+                    <p  class="p-projet" data-scroll data-scroll-speed="4" data-scroll-direction="horizontal"> La réalisation de ce projet avait pour objectifs d'intégrer des pages web à l'aide des langages HTML5/CSS3 et Javascript. Le site web devait être responsive design, compatible sur chaque format d'écran ainsi que sur les différents navigateurs. <br><br> Et dans un dernnier temps, je devais assurer la mise en ligne du site internet en veillant au respect des dates et du délai de livraison.</p>
                     </div>
-                </div>                                    
+                </div>
+                <div data-scroll class="project flex justify-start" id="p4">
+                    <div data-scroll class ="appear">
+                        <p  class="p-left" data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal">La création de ce site d'annonce web dynamique en PHP implique la conception de la base de données, le développement des pages HTML, la programmation en PHP pour gérer la logique du site, et l'intégration de la base de données. <br><br> Une fois le site développé, il est important de le tester, le déboguer et le déployer sur un serveur en ligne.</p>
+                    </div>
+                    <img src="img/annonceo_screen.png" alt="Site Annonce">
+                    <div class="project-infos">
+                        <a href="https://annonceo.bymendy.fr/" target="_blank">Site annonce</a>
+                        <p>2022</p>
+                    </div>
+                </div>
+                
+                                                    
             </main>
             <!-- Ligne de separation -->
             <div data-scroll class="line-wrapper">
                 <div class="line"></div>
             </div> 
             <!------------------------------------------ BAS DE PAGE ------------------------------------>   
-            <footer>
+            <footer data-scroll-container="">
                 <!--------- Me contacter --------->                
                 <div class="wrapper">
                     <div data-scroll class="appear">
@@ -243,7 +254,7 @@
                 <div data-scroll data-scroll-speed="10" data-scroll-position="bottom" class="img-wrapper">
                     <div class="img img2"></div> 
                 </div>
-                <a id="moncv" href="img/1.CV-developpeur_web-Barekine_MENDY.pdf" target="_blank"> <i class="fa-solid fa-download"></i> CV</a>         
+                <a id="moncv" href="img/CV_developpeur-MENDY_Barekine.pdf" target="_blank"> <i class="fa-solid fa-download"></i> CV</a>         
                 <!-- Infos Personnelles & réseaux sociaux -->                
                 <section id="infos"  class ="flex">
                     <div class="justify-around ">
@@ -264,6 +275,7 @@
 
             </footer>            
         </div>
+
         <!------------------------ SCRIPT ------------------------>                
         <script src="./assets/locomotive-scroll.min.js"></script>
         <script src="assets/js/index.js"></script> 

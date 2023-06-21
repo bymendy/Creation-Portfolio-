@@ -13,10 +13,13 @@ html.has-scroll-dragging {
 }
 .has-scroll-smooth [data-scroll-container] {
   min-height: 100vh;
+  margin-bottom: 20px;
+
 }
 [data-scroll-direction="horizontal"] [data-scroll-container] {
   display: inline-block;
   height: 100vh;
+  margin-bottom: 20px;
   white-space: nowrap;
 }
 [data-scroll-direction="horizontal"] [data-scroll-section] {
