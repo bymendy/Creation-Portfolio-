@@ -15,27 +15,30 @@
     list-style: none;
     text-decoration: none;
 }
+
 header .links a {
     text-decoration: none !important;
     list-style: none;
     color: #ffffff;
 }
+
 .element {
     overflow-y: auto;
-  }
+}
 
 .element::-webkit-scrollbar {
     background-color: #f1f1f1;
     width: 10px;
-  }
-  
-  .element::-webkit-scrollbar-thumb {
+}
+
+.element::-webkit-scrollbar-thumb {
     background-color: #888;
-  }
+}
 
 .height {
     min-height: 100vh;
 }
+
 /* COMMON CLASSES */
 .flex {
     display: flex;
@@ -68,9 +71,11 @@ body {
     color: #fefeff;
     transition: 0.7s ease-in-out;
 }
+
 .margin-top {
     margin-top: 100px;
 }
+
 .wrapper {
     perspective: 900px;
 }
@@ -147,10 +152,12 @@ a:hover::after {
         transform: scaleX(1);
     }
 }
+
 iframe {
-    width: 100% ;
+    width: 100%;
     height: 500px;
-} 
+}
+
 .img {
     height: 395px;
     width: 100vw;
@@ -219,12 +226,14 @@ header h2 {
     text-align: left;
 
 }
+
 header h2 .chaine {
     font-size: calc(1rem + 1vw);
     margin: 18px 0;
     text-align: left;
 
 }
+
 .scroll-wrapper {
     position: absolute;
     left: 50%;
@@ -246,9 +255,11 @@ header h2 .chaine {
     mix-blend-mode: exclusion;
     margin: -220px 0 200px;
 }
+
 div .intro {
     color: #000101;
 }
+
 .about p {
     width: 70%;
     min-width: 280px;
@@ -295,7 +306,7 @@ div .intro {
     position: relative;
 }
 
-div .p-right  {
+div .p-right {
     font-size: 23px;
     width: 40vw;
     margin-left: 15%;
@@ -327,7 +338,8 @@ div .p-left {
     /* font-size: calc(0.8rem + 0.8vw); */
 
 }
-div .p-projet  {
+
+div .p-projet {
     font-size: 23px;
     width: 40vw;
     margin-left: 15%;
@@ -498,6 +510,7 @@ footer a:hover {
     text-decoration: none;
     font-size: 35px;
 }
+
 .icon-Youtube a {
 
     color: #000101;
@@ -507,6 +520,7 @@ footer a:hover {
     padding: auto;
     width: 100%;
 }
+
 .icon-Youtube a:hover {
     color: #E4B344;
 }
@@ -527,30 +541,43 @@ footer a:hover {
     padding: 25px 5px;
     background-color: #fefeff;
 }
+
+.container {
+    height: 115px;
+}
+
+.block {
+    background-color: #ffffff;
+    height: 100%;
+}
+
 @media (max-width: 1250px) {
-    div .p-right  {
+    div .p-right {
         display: none;
     }
-    
+
     div .p-left {
-        display: none;    
+        display: none;
     }
+
     div .p-projet {
-        display: none;    
+        display: none;
     }
-    
+
 }
+
 @media (max-width: 650px) {
     .copyright {
         display: none;
     }
 }
+
 @media (min-width: 1250px) {
     iframe {
-        width: 800px ;
+        width: 800px;
         height: 500px;
         margin: auto;
         padding: auto;
         display: flex;
-    } 
+    }
 }
